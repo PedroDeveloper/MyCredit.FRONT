@@ -1,0 +1,25 @@
+.header-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2rem;
+  background: #1b1725;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.header-wrapper {
+  ul {
+   
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+
+  }
+
+  li a  {
+    text-decoration: none;
+    color: white;
+
+  }
+}

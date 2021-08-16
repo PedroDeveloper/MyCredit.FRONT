@@ -1,0 +1,8 @@
+ <form (ngSubmit)="searchData()" class="form-wrapper">
+  <div class="form-group">
+    <label for="id">ID do Usuário</label>
+    <input type="number" min="1" max="3" name="id" id="id" [(ngModel)]="id" class="form-input" />
+  </div>
+
+  <input type="submit" value="Pesquisar" class="query-cta" />
+</form> 
